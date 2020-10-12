@@ -96,7 +96,7 @@ return (
 - Version for other langs
 - Version for IDEs (at start - as vscode extension)
 
-### Functinality
+### Functionality
 - Check comments actuality (with validate triggering by related code changing)
 - Control rubbish commented code (to reduce amount of unused commented and confusing logic)
 - Control todo/fixme's progression (to regulate and normalize project backlog)
