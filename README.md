@@ -1,7 +1,7 @@
 # actool-cli
 Toolkit for code / comments actuality and relevance checking.
 
-> DISCLAIMER: Work in process, and for a while - there is approximate description
+> DISCLAIMER: Work in process, and for a while - here is **approximate** description
 
 ## Table of contents
 
