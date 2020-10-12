@@ -87,5 +87,17 @@ return (
 ## FAQ
 > TODO: some specific cases / problems (how it should be - by your opinion)
 
-## Plans
-> TODO: about plans of product: script => npm module => vscode and etc.
+## Future plans
+
+### Platforms
+- MVP version for js (as script validator)
+- NPM module version for js
+- Version with precommit hook validating
+- Version for other langs
+- Version for IDEs (at start - as vscode extension)
+
+### Functinality
+- Check comments actuality (with validate triggering by related code changing)
+- Control rubbish commented code (to reduce amount of unused commented and confusing logic)
+- Control todo/fixme's progression (to regulate and normalize project backlog)
+- Notifications for user (for manual checking confusing specified files)
