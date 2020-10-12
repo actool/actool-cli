@@ -19,10 +19,10 @@ Toolkit for code / comments actuality and relevance checking.
 ## Overview
 > *"Code never lies, comments sometimes do." - Ron Jeffries*
 
-Actool CLI provides tools for validating comments in code - based on your config, code and commits history.
+Actool CLI provides tools **for validating comments** in code - *based on your config, code and commits history.*
 
 Tool was conceived to solve following problems:
-- Comments for code block loses their actuality fastly - during developing (becomes *irrelevant*)
+- Comments for code block *loses their actuality fastly* - during developing (becomes *irrelevant*)
 ```ts
 /**
  * Get schedules from server
@@ -33,7 +33,7 @@ Tool was conceived to solve following problems:
      const { data: issueStatuses } = await API.getIssueStatuses();
  }
 ```
-- Sometimes few parts of code stay commented. And after long time it might confuse you and your colleagues when you'll return to this block
+- Sometimes few parts of *code stay commented*. And after long time it might confuse you and your colleagues when you'll return to this block
 ```tsx
 return (
     <div className="toolbar">
@@ -43,7 +43,7 @@ return (
     </div>
 )
 ```
-- After a while of your projects started - there are a lot of `fixme` / `todo` tags, what hard to control and track during dev
+- After a while of your projects started - *there are a lot of `fixme` / `todo` tags*, what hard to control and track during dev
 ```ts
 // TODO: loading logic
 // FIXME: temp logic, specify
