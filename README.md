@@ -1,7 +1,7 @@
 # actool-cli
 Toolkit for code / comments actuality and relevance checking.
 
-> DISCLAIMER: Work in process, and for a while - here is **approximate** description
+> **DISCLAIMER**: Work in process, and for a while - here is *approximate* description
 
 ## Table of contents
 
@@ -17,7 +17,40 @@ Toolkit for code / comments actuality and relevance checking.
 <!--te-->
 
 ## Overview
-> TODO: short explanation of problem and little more details about solution
+> *"Code never lies, comments sometimes do." - Ron Jeffries*
+
+Actool CLI provides tools for validating comments in code - based on your config, code and commits history.
+
+Tool was conceived to solve following problems:
+- Comments for code block loses their actuality fastly - during developing (becomes *irrelevant*)
+```ts
+/**
+ * Get schedules from server
+ */
+ const getDirectories = async () => {
+     const { data: schedules } = await API.getSchedules();
+     const { data: vehicles } = await API.getVehicles();
+     const { data: issueStatuses } = await API.getIssueStatuses();
+     const { data: assetsTypes } = await API.getAssetsTypes();
+ }
+```
+- Sometimes few parts of code stay commented. And after long time it might confuse you and your colleagues when you'll return to this block
+```tsx
+return (
+    <div className="toolbar">
+        <Button onClick={handleRefresh}>Refresh</Button>
+        {/* <Button onClick={() => dispatch(deleteEntity()))}>Delete</Button> */}
+        {/* <Button onClick={handleAdd}>Add</Button> */}
+        <Button onClick={handleEdit}>Edit</Button>
+    </div>
+)
+```
+- After a while of your projects started - there are a lot of `fixme` / `todo` tags, what hard to control and track during dev
+```ts
+// TODO: loading logic
+// FIXME: temp logic, specify
+// FIXME: invalid behaviour, fix later
+```
 
 ## Get Started
 > TODO: quick start with module (how it should be - by your opinion)
