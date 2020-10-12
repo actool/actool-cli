@@ -7,7 +7,6 @@ Toolkit for code / comments actuality and relevance checking.
 
 <!--ts-->
    * [Overview](#overview)
-   * [Table of Contents](#table-of-contents)
    * [Get started](#get-started)
       * [Installing](#installing)
       * [Usage example](#usage-example)
