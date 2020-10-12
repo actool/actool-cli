@@ -27,11 +27,10 @@ Tool was conceived to solve following problems:
 /**
  * Get schedules from server
  */
- const getDirectories = async () => {
+ const getShared = async () => {
      const { data: schedules } = await API.getSchedules();
      const { data: vehicles } = await API.getVehicles();
      const { data: issueStatuses } = await API.getIssueStatuses();
-     const { data: assetsTypes } = await API.getAssetsTypes();
  }
 ```
 - Sometimes few parts of code stay commented. And after long time it might confuse you and your colleagues when you'll return to this block
@@ -41,7 +40,6 @@ return (
         <Button onClick={handleRefresh}>Refresh</Button>
         {/* <Button onClick={() => dispatch(deleteEntity()))}>Delete</Button> */}
         {/* <Button onClick={handleAdd}>Add</Button> */}
-        <Button onClick={handleEdit}>Edit</Button>
     </div>
 )
 ```
