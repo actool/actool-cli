@@ -89,9 +89,10 @@ return (
 
 ## Future plans
 
-### Platforms
+### Variations
 - MVP version for js (as script validator)
 - NPM module version for js
+- ESLint rule
 - Version with precommit hook validating
 - Version for other langs
 - Version for IDEs (at start - as vscode extension)
