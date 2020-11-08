@@ -1,11 +1,13 @@
 {
     "compilerOptions": {
-        "outDir": "./dist/",
+        "module": "commonjs",
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "resolveJsonModule": true,
         "sourceMap": true,
-        "noImplicitAny": true,
-        "module": "es6",
-        "target": "es5",
+        "baseUrl": "./",
         "jsx": "preserve",
+        "esModuleInterop": true,
     },
     "exclude": [
         "node_modules",

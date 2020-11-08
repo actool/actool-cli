@@ -1,14 +1,4 @@
-type Person = {
-    id: number;
-    name: string;
-}
+import persons from "./fixtures.json";
+import { logFixture } from "./helpers";
 
-const fixtures: Person[] = [
-    { id: 1, name: "John" },
-    { id: 2, name: "Jane" },
-    { id: 3, name: "Jack" },
-]
-
-fixtures.forEach((person) => {
-    console.log(`[${person.id}] ${person.name}`);
-});
+(persons as Person[]).forEach(logFixture);
