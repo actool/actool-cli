@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "baseUrl": "./",
+        "jsx": "preserve",
+        "esModuleInterop": true,
+    },
+    "exclude": [
+        "node_modules",
+    ]
+}
