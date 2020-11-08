@@ -1,0 +1,25 @@
+{
+  "name": "actool-cli",
+  "version": "0.0.1",
+  "description": "Toolkit for code/comments actuality validating",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martis-git/actool-cli.git"
+  },
+  "keywords": [
+    "code",
+    "actuality",
+    "comments",
+    "toolkit"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martis-git/actool-cli/issues"
+  },
+  "homepage": "https://github.com/martis-git/actool-cli#readme"
+}
