@@ -10,6 +10,7 @@ import { loadEvents } from '../api'
     dynamic: true
 })
 class EventsModule extends VuexModule {
+    // TODO add field count
     _eventList: EventItem[] = []
     _next: string | null = null
     _previous: string | null = null
@@ -24,6 +25,7 @@ class EventsModule extends VuexModule {
 
     @Action({commit: 'setNext'})
     changeNext(next: string | null) {
+        // FIXME check
         if (next) {
             const url = new URL(next);
             return url.searchParams.get("page") || null
@@ -48,14 +50,14 @@ class EventsModule extends VuexModule {
         }
         return null
     }
-
+    // FIXME make more usable
     get previous() {
         return this._previous
     }
 
 
     // ----- EVENT -----
-
+    // TODO move to ...
     @Mutation
     setEventList(eventList: EventItem[]) {
         this._eventList = eventList
