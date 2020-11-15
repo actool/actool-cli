@@ -25,5 +25,5 @@
       - Либо в файле
 
 Также практически каждое правило принимает значение обрабатываемых комментариев
-- `{ comments: { single: boolean, multi: boolean }}`
+- `{ comments: { single: boolean, multi: boolean, jsx: boolean }}`
 
