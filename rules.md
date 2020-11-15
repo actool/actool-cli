@@ -2,9 +2,11 @@
 
 > Позже будет разбито по файлам в `/docs/rules/{rule}.md`
 
+1. TODOS chaos
 - `actool/max-tags` - ограничение количества тегов TODO/FIXME в коде
    - `{ todo: number }` - ограничение общего кол-ва TODO меток (default = 16)
    - `{ fixme: number }` - ограничение общего кол-ва FIXME меток (default = 16)
+2. Doclets actuality
 - `actool/live-doclets-block` - добавление обновляемости доклетов, в зависимости от изменения блока кода
   - `{ by: "commits" | "days" }` - считаем разницу по коммитам или дням (default=days)
    > by=commits:
@@ -18,6 +20,7 @@
   - `{ diff: number }` - приемлемая разница (граница) между кол-вом коммитов (дней) доклета и блока кода (default=4)
 - `actool/live-doclets-line` - аналогично `actool/live-doclets-block` (но можно задать свой конфиг)
 - `actool/live-doclets-module` - (нужен ли?)
+3. Rubbish commented code
 - `actool/no-commented-code` - ограничение использования закомментированного кода
    - `{ when: "always" |  "expired" }` - срабатывание валидатора `всегда`/`по истечению срока` (default="always")
    - `{ by: "commits" | "days" }` - как выше (default=days)
