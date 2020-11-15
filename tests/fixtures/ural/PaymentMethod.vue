@@ -93,12 +93,12 @@ export default Vue.extend({
   border-radius: 30px;
 }
 
-.payment-tab {
+/* .payment-tab {
   width: 300px;
   border-radius: 30px;
   text-transform: inherit;
-  font-size: 15px;
-}
+  font-size: 15px; */
+/**/
 
 /*.payment-tab-primary {*/
 /*  background-color: #00ac00;*/
