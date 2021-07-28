@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/martis-git/actool-cli.git"
+    "url": "git+https://github.com/actool/actool-cli.git"
   },
   "keywords": [
     "code",
@@ -20,9 +20,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/martis-git/actool-cli/issues"
+    "url": "https://github.com/actool/actool-cli/issues"
   },
-  "homepage": "https://github.com/martis-git/actool-cli#readme",
+  "homepage": "https://github.com/actool/actool-cli#readme",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
